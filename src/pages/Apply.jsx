@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import './Apply.css';
-const API_URL = "https://your-railway-url.up.railway.app";
+const API_URL = "https://web-production-66d5e.up.railway.app";
 // ─── Constants ────────────────────────────────────────────────────────────────
 
 const BRAND_STEPS = ['Company', 'Campaign', 'Budget', 'Review'];
