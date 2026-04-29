@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import './Apply.css';
+import handshake from '../assets/handshake.png'
 const API_URL = "https://web-production-66d5e.up.railway.app";
 // ─── Constants ────────────────────────────────────────────────────────────────
 
@@ -762,7 +763,7 @@ export default function Apply() {
               {/* Image from your assets folder — place the PNG at src/assets/handshake.png */}
               <div className="confirm-icon">
                 <img
-                  src="/src/assets/handshake.png"
+                  src={handshake}
                   alt="partnership"
                   className="confirm-icon-img"
                 />
